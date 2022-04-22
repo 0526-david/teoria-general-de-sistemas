@@ -5,9 +5,18 @@
 }
 
 body {
+    width: 90%;
+    margin: auto;
     background-color: #000000;
     color: #ffffff;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* BARRA DE NAVEGACION */
 
 .logo {
     width: 50px;
@@ -15,12 +24,12 @@ body {
 }
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     height: 60px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
 ul, ol {
@@ -62,4 +71,33 @@ ul, ol {
 .navegacion li:hover > ul {
     display: block;
     opacity: 1;
+}
+
+/* TITULO */
+
+.titulo h2 {
+    font-size: 90px;
+}
+
+.titulo p {
+    font-size: 20px;
+}
+
+.titulo {
+    width: 100%;
+    height: 550px;
+    background: url("./img/titulo1.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.titulo h2,
+.titulo p {
+    margin-bottom: 20px;
 }
