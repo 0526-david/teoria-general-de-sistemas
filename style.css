@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -100,4 +101,36 @@ ul, ol {
 .titulo h2,
 .titulo p {
     margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* TEMAS */
+
+.temas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 70px 0;
+}
+
+.temas div:hover {
+    opacity: 0.6;
+}
+
+.temas img {
+    width: 100%;
+    height: 180px;
+}
+
+.temas div {
+    background-color: #001D00;
+    margin: 5px 5px;
+    padding: 3%;
+}
+
+.temas h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
 }
