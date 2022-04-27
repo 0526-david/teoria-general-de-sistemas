@@ -82,7 +82,7 @@ ul, ol {
     opacity: 1;
 }
 
-/* TUTULO */
+/* TITULO */
 
 h2 {
     padding: 20px 0 10px 0;
@@ -94,6 +94,7 @@ h2 {
 /* TEXTO */
 
 p {
+    width: 100%;
     padding: 10px;
     font-size: 20px;
     text-align: center;
@@ -103,15 +104,9 @@ p {
 /* IMAGEN */
 
 .imagen {
+    padding: 25px;
     text-align: center;
 }
-
-.imagen2 {
-    padding: 40px;
-    text-align: center;
-}
-
-/* SUBTITULO */
 
 h3 {
     padding: 10px 10px;
@@ -121,12 +116,46 @@ h3 {
 }
 
 /* LISTAS */
+
 .listas > ul {
     list-style: decimal;
     text-align: center;
 }
 
-/* PIE DE PAGINA */
+.listas2 > ul {
+    padding: 30px 0 0 0;
+    list-style: decimal;
+    text-align: center;
+}
+
+.listas3 > ul {
+    padding: 30px 0 0 0;
+    list-style: decimal;
+    text-align: center;
+}
+
+.imagenes2 {
+    width: 100%;
+    display: flex;
+}
+
+.imagenes2 img {
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 650px;
+}
+
+.imagen3 {
+    text-align: center;
+}
+
+.imagen3 img {
+    padding: 40px;
+    margin: auto;
+    width: 650px;
+}
 
 footer {
     background-color: #5F5A56;
